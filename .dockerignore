@@ -33,3 +33,35 @@ postgres_data/
 # OS junk
 .DS_Store
 Thumbs.db
+
+# Git
+.git
+.gitignore
+.dockerignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtualenvs
+.venv/
+ENV/
+
+# Local/dev
+*.log
+*.env
+.env.*
+
+# Build / dist
+dist/
+build/
+*.egg-info/
+
+# Tests & tooling
+.pytest_cache/
+.coverage
+.pre-commit-*
+.pre-commit-cache/
+.pre-commit-trivy-cache/

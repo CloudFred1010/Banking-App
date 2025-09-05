@@ -40,3 +40,14 @@ build/
 
 # Node/npm (if frontend comes later)
 node_modules/
+
+# Pre-commit
+.pre-commit-config.yaml
+.pre-commit-*
+.pre-commit-cache/
+.pre-commit-trivy-cache/
+
+# Pytest
+.pytest_cache/
+.coverage
+*.coverage
