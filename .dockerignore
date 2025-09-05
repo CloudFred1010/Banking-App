@@ -1,0 +1,35 @@
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Tests (not needed in production image)
+pytest.ini
+*.pytest_cache/
+src/tests/
+
+# Local dev + venvs
+.venv/
+venv/
+ENV/
+
+# Docker / Compose
+docker-compose.yml
+.docker/
+
+# Logs / runtime
+*.log
+*.pid
+*.sock
+postgres_data/
+
+# Git / IDE
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db

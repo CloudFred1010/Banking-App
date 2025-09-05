@@ -1,0 +1,42 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pytest_cache/
+*.coverage
+.coverage.*
+
+# Environment
+.env
+*.env
+.env.*
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Docker
+*.log
+postgres_data/
+*.pid
+*.sock
+.docker/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Build / dist
+dist/
+build/
+*.egg-info/
+
+# Node/npm (if frontend comes later)
+node_modules/
